@@ -98,6 +98,54 @@ button{
 	    float: right;
 }
 
+#Boundary {
+    width: 200px;
+    height: 310px;
+    background-color: #3A3254;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+
+#Use {
+    width: 200px;
+    height: 310px;
+    background-color: #C2C1C0;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 32px;
+}
+
+#The {
+    width: 190px;
+    height: 310px;
+    background-color: #3A3254;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 32px;
+}
+
+#with {
+    width: 190px;
+    height: 310px;
+    background-color: #C2C1C0;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 32px;
+}
+
+
+
+
 text{
     color: white;
     height: 70px;
@@ -108,17 +156,24 @@ text{
 
 h2{
 	color:white;
-	}
-
+    width:500px;
+    height:100px;
+    margin-right: 1em;
+   margin-left: 1em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+  
+}
 
 
 p{
    color: white;
    display: block;
-   margin-before: 1em;
-   margin-after: 1em;
-   margin-start: 0px;
-   margin-end: 0px;
+   width:500px;
+   margin-right: 1em;
+   margin-left: 1em;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 
 
