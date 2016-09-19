@@ -2,9 +2,10 @@
 #wrapper{
 	background-color: #B1ABC6;
     width: 965px;
-    height: 1660px;
+    height: 2760px;
     margin: 0 auto;
 }
+
 
 
 header{
@@ -106,7 +107,7 @@ button{
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
-    margin-top: 50px;
+    margin-top: 32px;
 }
 
 
@@ -145,22 +146,21 @@ button{
 
 
 
-
 #text {
-    width: 965px;
+    width: 600px;
     height: 300px;
 }
 
+
 h2{
-	color:white;
-    
-  
+	color:white; 
 }
 
 
 p{
    color: #C2C1C0;
 }
+
 
 h4{
     color: black;
@@ -170,7 +170,6 @@ h4{
     margin-start: 0px;
     margin-end: 0px;
     font-weight: bold;
-
 }
 
 
