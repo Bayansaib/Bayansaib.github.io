@@ -29,93 +29,295 @@
              */
 
             #starbuckslogo {
-            	position: absolute;
-            	width: 300px;
-            	text-align: center;
-            	top: 40px;
-            	animation-name: fadeIn, fadeOut;
-            	animation-duration: 1s, 1s;
-            	animation-delay: 0s, 2s;
-            	animation-fill-mode: backwards, forwards;
+                position: absolute;
+                width: 300px;
+                text-align: center;
+                top: 40px;
+                animation-name: fadeIn, fadeOut;
+                animation-duration: 1s, 1s;
+                animation-delay: 0s, 2s;
+                animation-fill-mode: backwards, forwards;
+
+
             }
             #smallstarbuckslogo {
-            	position: absolute;
-            	width: 300px;
-            	text-align: left;
-            	bottom: 10px;
-            	left: 10px;
-            	animation-name: fadeIn;
-            	animation-duration: 1s;
-            	animation-delay: 2.5s;
-            	animation-fill-mode: both;
+                position: absolute;
+                width: 300px;
+                text-align: left;
+                bottom: 10px;
+                left: 10px;
+                animation-name: fadeIn;
+                animation-duration: 1s;
+                animation-delay: 2.5s;
+                animation-fill-mode: both;
             }
+
             #smallstarbuckslogo img {
-            	width: 30px;
+                width: 30px;
             }
+
 
             #ghost {
-            	position: absolute;
-            	left: -150px;
-            	top: 20px;
-            	width: 150px;
-            	height: 150px;
-            	animation-name: moveRight, fadeIn;
-            	animation-duration: 4s, 1s;
-            	animation-delay: 2s, 1s;
-            	animation-fill-mode: both;
+                position: absolute;
+                left: -150px;
+                top: 20px;
+                width: 150px;
+                height: 150px;
+                animation-name: moveRight, fadeIn;
+                animation-duration: 4s, 1s;
+                animation-delay: 2s, 1s;
+                animation-fill-mode: both;
             }
+
+        p{
+
+        color: black;
+        width: 100px;
+        text-align: center;
+
+}
+#grayl{
+
+                position: absolute;
+                right:220px;
+                top: 20px;
+                width: 120px;
+                height: 120px;
+                margin: 100px auto;
+                padding: 50px 50px;
+                width: 100px;
+                animation-name: fadeIn, fadeOut;
+                animation-duration:10s, 15s;
+                animation-delay: 13s, 15s;
+                animation-fill-mode: backwards, forwards;   
+            }
+
+
+
+
+
+            #Pumpkin1{
+                position: absolute;
+                right:220px;
+                top: 20px;
+                width: 120px;
+                height: 120px;
+                margin: 100px auto;
+                padding: 50px 50px;
+                width: 100px;
+                transition: 1s ease-in-out;
+                animation-name: moveRightBottom, ease-in-out;
+                animation-duration: 12s, 1s;
+                animation-delay: 3s,1s;
+                animation-fill-mode: both;   
+            }
+
+
+
+            #Bat1{
+                backgoround:#383889
+                ;position: absolute;
+                right:220px;
+                top: 20px;
+                width: 120px;
+                height: 120px;
+                margin: 100px auto;
+                padding: 50px 50px;
+                width: 100px;
+                transition: 1s ease-in-out;
+                animation-name: moveRightBottom, ease-in-out;
+                animation-duration: 14s, 1s;
+                animation-delay: 4s,1s;
+                animation-fill-mode: both;   
+            }
+
+
+
+             #Bat2{
+                position: absolute;
+                right:220px;
+                top: 20px;
+                width: 120px;
+                height: 120px;
+                margin: 100px auto;
+                padding: 50px 50px;
+                width: 100px;
+                transition: 1s ease-in-out;
+                animation-name: moveRightBottom, ease-in-out;
+                animation-duration: 15s, 1s;
+                animation-delay: 4s,1s;
+                animation-fill-mode: both;   
+            }
+
+
+             #Pumpkin2{
+                position: absolute;
+                right:220px;
+                top: 20px;
+                width: 120px;
+                height: 120px;
+                margin: 100px auto;
+                padding: 50px 50px;
+                width: 100px;
+                transition: 1s ease-in-out;
+                animation-name: moveRightBottom, ease-in-out;
+                animation-duration: 14s, 1s;
+                animation-delay: 4s,1s;
+                animation-fill-mode: both;   
+
+       }
+
+
+          
+         
+
+@keyframes explodeLeft {
+    0% {
+        transform: translate(0,0) scale(1) rotate(0);
+    }
+    35% {
+        transform: translate(-75px,-50px) scale(1.5) rotate(45deg);
+    } 
+    100% {
+        transform: translate(-175px,500px) scale(0) rotate(360deg);
+    }
+    
+}
+
+
+
 
             @keyframes fadeIn {
-            	0% {
-            		opacity: 0;	
-            	}
-            	100% {
-            		opacity: 1;		
-            	}
+                0% {
+                    opacity: 0; 
+                }
+                100% {
+                    opacity: 1;     
+                }
             }
             @keyframes fadeOut {
-            	0% {
-            		opacity: 1;	
-            	}
-            	100% {
-            		opacity: 0;		
-            	}
+                0% {
+                    opacity: 1; 
+                }
+                100% {
+                    opacity: 0;     
+                }
             }
-            @keyframes moveRight {
-            	0% {
-            		transform: translate(-100px, 0);	
-            	}
-            	65% {
-            		transform: translate(200px,0);
-            	}
-            	100% {
-            		transform: translate(500px,0);	
-            	}
-            }
- 			
 
+            @keyframes moveRight {
+                0% {
+                    transform: translate(-100px, 0);    
+                }
+                65% {
+                    transform: translate(200px,0);
+                }
+                100% {
+                    transform: translate(500px,0);  
+                }
+            }
+            
+
+            @keyframes moveRightBottom {
+                0% {
+                    transform: translate(-100px, 0);    
+                }
+                
+                 60% {
+                    transform: translate(200px,0);
+               
+                }
+                100% {
+                    transform: translate(700px,0);  
+                }
+            }
+            
 
         </style>
+
+
     </head>
     <body>
         <a href="#" id="medium-rectangle">
-        	 <!--markup for banner goes below-->
-        		
-			<div id="starbuckslogo">
-				<img src="images/starbuckslogo.png">
-			</div>
+             <!--markup for banner goes below-->
+                
+            <div id="starbuckslogo">
+                <img src="images/starbuckslogo.png">
+            </div>
 
-			<div id="smallstarbuckslogo">
-				<img src="images/starbuckslogo.png">
-			</div>
+            <div id="smallstarbuckslogo">
+                <img src="images/starbuckslogo.png">
+            </div>
            
      
-	      	<div id="ghost">
-	      		<img src="images/Ghost.png">
-	      	</div>
+            <div id="ghost">
+                <img src="images/Ghost.png">
+                <p>A SpooKtober Special</p>
+            </div>
 
 
-        	
+
+
+        
+
+            <div id="Pumpkin1">
+                
+
+                <img src="images/Pumpkin1.svg">
+                <p>Pumpkin Spice is back </p>
+        
+            </div>
+
+
+            <div id="grayl">
+
+                <img src="images/Screen Shot 2016-10-03 at 7.47.46 PM.png">
+        
+            </div>
+
+
+
+
+           <div id="Bat1">
+                
+
+                <img src="images/Bat-2.png">
+
+                 
+              
+            </div>
+
+            <div id="Bat2">
+                
+
+                <img src="images/Bat-2.png">
+
+                 
+              
+            </div>
+
+
+           <div id="Pumpkin2">
+                 <p>Ha..Ha..</p>
+        
+
+                <img src="images/Pumpkin2.png">
+                <p> </p>
+        
+            </div>
+
+
+
+            <div id="frap">
+                 
+        
+
+                <img src="images/">
+               <p>Treat yourself</p>
+        
+            </div>
+
+
+            
             <!--markup for banner goes above-->
         </div>
     </body>
