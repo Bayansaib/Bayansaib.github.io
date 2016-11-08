@@ -137,6 +137,10 @@ p{
 }
 
 
+h3, h5{
+    color:#067655;
+}
+
 footer{
     background-color:black;
     height: 50px;
