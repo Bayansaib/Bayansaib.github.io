@@ -141,6 +141,23 @@ h3, h5{
     color:#067655;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 3x;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
 footer{
     background-color:black;
     height: 50px;
