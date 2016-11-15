@@ -99,6 +99,7 @@ nav a:link, a:visited {
 
 button > hover { 
     background-color: #333;
+    color:red;
 }
 
 #text {
