@@ -1,18 +1,4 @@
-<head>
-        <meta charset="utf-8">
-
-
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Banner Ad - Medium Rectangle (300x250)</title>
-        <meta name="ad.size" content="width=300,height=250">
-        <meta name="description" content="">
-
-
-        <style>
-            /*
-             * Banner container, do not change
-             */
-            #medium-rectangle {
+ #medium-rectangle {
                 background: #F9AC00;
                 border: 1px solid #ccc;
                 display: block;
@@ -37,8 +23,9 @@
                 animation-duration: 1s, 1s;
                 animation-delay: 0s, 2s;
                 animation-fill-mode: backwards, forwards;
-            }
 
+
+            }
             #smallstarbuckslogo {
                 position: absolute;
                 width: 300px;
@@ -68,27 +55,30 @@
                 animation-fill-mode: both;
             }
 
-                p{
+        p{
 
-                color: black;
-                width: 100px;
-                text-align: center;
-                 }
+        color: black;
+        width: 100px;
+        text-align: center;}
 
             #grayl{
-                background: url("images/Screen Shot 2016-10-03 at 7.47.46 PM copy.png");
+
                 position: absolute;
-                right: 0;
-                top: 0;
-                width: 300px;
-                height: 250px;
-                margin: 0 auto;
-                padding: 0;
+                right:220px;
+                top: 20px;
+                width: 120px;
+                height: 120px;
+                margin: 100px auto;
+                padding: 50px 50px;
+                width: 100px;
                 animation-name: fadeIn, fadeOut;
-                animation-duration: 1s, 1s;
-                animation-delay: 10s, 16s;
+                animation-duration:10s, 15s;
+                animation-delay: 13s, 15s;
                 animation-fill-mode: backwards, forwards;   
             }
+
+
+
 
 
             #Pumpkin1{
@@ -100,15 +90,17 @@
                 margin: 100px auto;
                 padding: 50px 50px;
                 width: 100px;
+                transition: 1s ease-in-out;
                 animation-name: moveRightBottom, ease-in-out;
                 animation-duration: 12s, 1s;
-                animation-delay: 3s, 15s;
+                animation-delay: 3s,1s;
                 animation-fill-mode: both;   
             }
 
 
 
             #Bat1{
+                background: #383889;
                 position: absolute;
                 right:220px;
                 top: 20px;
@@ -119,8 +111,8 @@
                 width: 100px;
                 transition: 1s ease-in-out;
                 animation-name: moveRightBottom, ease-in-out;
-                animation-duration: 2s, 1s;
-                animation-delay: 2s,1s;
+                animation-duration: 14s, 1s;
+                animation-delay: 4s,1s;
                 animation-fill-mode: both;   
             }
 
@@ -128,6 +120,7 @@
 
              #Bat2{
                 position: absolute;
+                background-color: #383889;
                 right:220px;
                 top: 20px;
                 width: 120px;
@@ -145,7 +138,6 @@
 
 
              #Pumpkin2{
-                background: purple;
                 position: absolute;
                 right:220px;
                 top: 20px;
@@ -160,9 +152,9 @@
                 animation-delay: 4s,1s;
                 animation-fill-mode: both;   
 
-               }
+       }
 
-               #frapp{
+       #frapp{
                 position: absolute;
                 right:220px;
                 top: 20px;
@@ -173,31 +165,28 @@
                 width: 100px;
                 transition: 1s ease-in-out;
                 animation-name: moveRightBottom, ease-in-out;
-                animation-duration: 10s, 1s;
+                animation-duration: 15s, 1s;2
                 animation-delay: 4s,1s;
-             }
+                animation-fill-mode: both;  
+       }
        
 
           
          
 
-            @keyframes explodeLeft {
-                0% {
-                    transform: translate(0,0) scale(1) rotate(0);
-                }
-                35% {
-                    transform: translate(-75px,-50px) scale(1.5) rotate(45deg);
-                } 
-                100% {
-                    transform: translate(-175px,500px) scale(0) rotate(360deg);
-                }
-                
-                }
-
-
-@keyframes {
-        transition:transform.5s easein-in;
+@keyframes explodeLeft {
+    0% {
+        transform: translate(0,0) scale(1) rotate(0);
+    }
+    35% {
+        transform: translate(-75px,-50px) scale(1.5) rotate(45deg);
+    } 
+    100% {
+        transform: translate(-175px,500px) scale(0) rotate(360deg);
+    }
+    
 }
+
 
 
 
@@ -241,97 +230,5 @@
                
                 }
                 100% {
-                    transform: translate(500px,0);  
+                    transform: translate(700px,0);  
                 }
-            }
-            
-
-        </style>
-
-
-    </head>
-    <body>
-        <a href="#" id="medium-rectangle">
-             <!--markup for banner goes below-->
-                
-            <div id="starbuckslogo">
-                <img src="images/starbuckslogo.png">
-            </div>
-
-            <div id="smallstarbuckslogo">
-                <img src="images/starbuckslogo.png">
-            </div>
-           
-     
-            <div id="ghost">
-                <img src="images/Ghost.png">
-                <p>A SpooKtober Special</p>
-            </div>
-
-
-
-
-        
-
-            <div id="Pumpkin1">
-                
-
-                <img src="images/Pumpkin1.svg">
-                <p>Pumpkin Spice is back </p>
-        
-            </div>
-
-
-            <div id="grayl">
-                <h3>Pumpkin Spice is back</h3>
-            </div>
-
-
-
-
-           <div id="Bat1">
-                
-
-                <img src="images/Bat-2.png">
-
-                 
-              
-            </div>
-
-            <div id="Bat2">
-                
-
-                <img src="images/Bat-2.png">
-                <p>Ha..Ha..</p>
-                 
-              
-            </div>
-
-
-           <div id="Pumpkin2">
-        
-
-
-
-            <div id="frap">
-                 
-                <p>Pumpkin spice Latte</p>
-
-               <p>Pumpkin spice frappuccino</p>
-
-               <h2>Treat yourself</h2>
-
-                <img src="images/frapp.png">
-               
-                <p>Pumpkin Spice</p>
-                <p>Pumpkin Spice Frappuccino</p>
-                <h3>Treat yourself</h3>
-        
-            </div>
-
-
-            
-            <!--markup for banner goes above-->
-        </div>
-    </body>
-</html>
